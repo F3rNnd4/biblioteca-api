@@ -26,6 +26,7 @@ model Autor {
   id        Int     @id @default(autoincrement())
   nome      String
   sobrenome String?
+  nacionalidade String
 
   livros    Livro[]
 
